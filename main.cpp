@@ -16,11 +16,14 @@ int main()
 
 	for(i=0; i<5; i++)
 	{
+		if(!x) cout << "ƒ[ƒ‚Å‚·\n";
+		cout << unsigned(x) << endl;
 		cout << x++ << " " << ++y << endl;
 	}
 
 	for(i=0; i < 5; i++)
 	{
+		if(!y) cout << "ƒ[ƒ‚Å‚·\n";
 		cout << x-- << " " << --y << endl;
 	}
 
